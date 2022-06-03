@@ -1,6 +1,6 @@
 # Custom Kitchen-CI test
 
-This repo contains Kitchen-CI test that uses Kitchen-Terraform and InSpec to verify the Terraform Configuration and custom plugin on Linux_amd64 Environment. 
+This repo contains Kitchen-CI test that uses Kitchen-Terraform and InSpec to verify the Terraform Configuration with custom local plugin on Linux_amd64 Environment. 
 
 The test uses cmp matcher and it will verify if the output IP is shown and if differs from the loopback IP (127.0.0.1). 
 
