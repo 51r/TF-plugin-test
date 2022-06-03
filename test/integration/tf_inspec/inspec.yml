@@ -1,0 +1,5 @@
+---
+name: tf_inspec
+attributes:
+  - name: external_ip
+    type: string
