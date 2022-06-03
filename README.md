@@ -25,20 +25,21 @@ git clone https://github.com/51r/TF-plugin-test.git
 cd TF-plugin-test
 ```
 
-3. Install the Ruby gems from the Gemfile with bundler:
+3. Install the Ruby gems(test-kitchen and kitchen-terraform) from the Gemfile with bundler:
 ```
 bundle install
 ```
+
 4. Build the Kitchen-CI environment:
 ```
 bundle exec kitchen converge
 ```
 
 5. Run the test:
-
 ```
 bundle exec kitchen test
 ```
+
 The above command will init terraform, apply the plan, test and then destroy the terraform plan.
 
 You should see the following output:
